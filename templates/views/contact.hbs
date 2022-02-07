@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{>header}}
+
+<body>
+    {{>navbar}}
+    <section class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Contact us</h2>
+            <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+            <div class="mb-3"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="mb-3"><button class="btn btn-secondary" type="submit" style="background: #016555;">send </button></div>
+        </form>
+    </section>
+    <div class="container text-end d-flex d-lg-flex justify-content-lg-center align-items-lg-center mt-5">
+        <form></form>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
